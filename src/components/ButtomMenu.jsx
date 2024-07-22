@@ -19,7 +19,7 @@ function ButtomMenu () {
                 </div>
                 <div className="flex flex-col text-center">
                     <h3 className="pb-4">Visit Us</h3>
-                    <div className="space-y-[-6px]">
+                    <div className="space-y-[-8px]">
                     <p>K2 Venture Co.,Ltd</p>
                     <p>30 Seri 9 Soi 11</p>
                     <p>Suanluang, Suanluang</p>
