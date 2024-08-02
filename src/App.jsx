@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import HomePage from './main-page/HomePage'
 import ButtomMenu from './components/ButtomMenu'
 import OurWorkPage from './main-page/OurWorkPage'
+import ProjectPage from './main-page/ProjectPage'
 
 
 function App() {
@@ -27,6 +28,10 @@ function App() {
         {
           path: "/OurWork",
           element: <OurWorkPage />
+        },
+        {
+          path: "/Project",
+          element: <ProjectPage />
         },
       ]
     }

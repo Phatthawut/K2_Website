@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 function ButtomMenu () {
     return (
         <section>
-            <div className="flex flex-col text-2xl gap-12 items-center font-semibold text-blue-700 bg-blue-100">
+            <div className="flex flex-col text-2xl gap-12 items-center font-semibold pt-6 text-blue-700 bg-blue-100">
                 <img src="https://placehold.co/220x110" alt="placehopld"/>
                 <div className="flex flex-col text-center">
                     <h3 className="pb-4">Follow Us</h3>
