@@ -6,19 +6,30 @@ function HomePage () {
     const heroData =
         {
             title: "NOTH/NG /s /MPOSS/BLE",
-            heroBGImage: "https://placehold.co/1440x600"
+            heroBGImage: "/src/images/hero_bg.webp"
         }
-    const projectLists = 
+
+        const bgImage = 
         {
-            projectBGImage: "https://placehold.co/1440x600/blue/white",
+            foundationBGImage: "src/images/foundation_bg.webp",
+            destinationBGImage: "src/images/destination_bg.webp",
+            teamBGImage: "src/images/team_bg.webp",
+            serviceLogoImage: "src/images/service.png",
+            serviceBGImage: "src/images/service_bg.webp",
+        }
+
+    const partnerImage = 
+        {
+            partnerBMImage: "https://placehold.co/1440x600/blue/white",
             projectBGImage2: "https://placehold.co/1440x600/orange/white"
         }
     return (
     <div className="flex flex-col max-w-[1440px] mx-auto">
         <HeroSection title={heroData.title} heroBGImage={heroData.heroBGImage} />
-        {/* about 1 build*/}
-        <div id="aboutus" style={{ backgroundImage: `url(${projectLists.projectBGImage})` }} className="relative py-8">
-            <div className="flex flex-col text-center gap-4 text-white font-bold ">        
+        {/* about 1 foundation*/}
+        <div id="aboutus" style={{ backgroundImage: `url(${bgImage.foundationBGImage})` }} className="relative py-8 min-h-[400px]">
+            <div className="text-sm text-white font-bold text-center pb-6 lg:text-right lg:pr-14"><h2>(k2 Venture    Creative Communication Agency)</h2></div>
+            <div className="flex flex-col text-center gap-4 text-white text-lg font-bold ">        
                 <h3 className="leading-4 lg:text-3xl">BUILT on the <span className="font-normal">FOUNDATION<br />of ACHIEVING</span></h3>
                 <h3 className="lg:text-3xl">the IMPOSSIBLE</h3>
                 <h3 className="leading-4 lg:text-3xl">WE BELIEVE in the POWER of<br /> <span className="font-normal lg:text-3xl">REACHING NEW HEIGHTS</span></h3>
@@ -30,7 +41,7 @@ function HomePage () {
             </div>
         </div>
         {/* about 2 not-just*/}
-        <div style={{ backgroundImage: `url(${projectLists.projectBGImage2})`}} className="relative text-center py-12 px-8 md:px-32 min-h-[600px] bg-cover bg-center">
+        <div style={{ backgroundImage: `url(${bgImage.destinationBGImage})`}} className="relative text-center py-12 px-8 md:px-32 min-h-[600px] bg-cover bg-center">
             <div className="flex flex-col text-white py-20">
             <h3 className="w-44 pb-6 uppercase leading-4 lg:text-3xl lg:w-96 text-justify">it’s not ----<span className="italic">just</span><br /><span className="lowercase italic">the</span> <span className="font-bold"> destination</span><br />it’s <span className="lowercase italic">the </span><span className="font-bold">journey</span></h3>
             <div className="text-end pl-16 md:pl-56 lg:text-3xl leading-4">
@@ -48,7 +59,7 @@ function HomePage () {
             </div>
         </div>
         {/* section team technique terrain */}
-        <div style={{ backgroundImage: `url(${projectLists.projectBGImage})`}} className="relative px-14 md:px-60 lg:flex gap-2 lg:pl-0 text-white bg-blue-700 min-h-[600px] bg-cover bg-center" >
+        <div style={{ backgroundImage: `url(${bgImage.teamBGImage})`}} className="relative px-14 md:px-60 lg:flex gap-2 lg:pl-0 text-white bg-blue-700 min-h-[600px] bg-cover bg-center" >
             {/* team */}
             <div className="flex flex-col items-center py-4 px-8 h-96 bg-gradient-to-b from-blue-500 from-70% lg:pt-64 lg:w-[260px]">
                 <h2 className="text-3xl pb-4 uppercase">Team</h2>
@@ -74,8 +85,8 @@ function HomePage () {
 
         {/* service section */}
         <div className="relative flex flex-col justify-center items-center text-white">
-            <div className="flex justify-center w-full py-6" style={{ backgroundImage: `url(${projectLists.projectBGImage2})` }}>
-            <img className="" src='https://placehold.co/240x80' alt='service'/>
+            <div className="flex justify-center w-full py-6" style={{ backgroundImage: `url(${bgImage.serviceBGImage})` }}>
+            <img className="" src= {bgImage.serviceLogoImage} alt='service'/>
             </div>
             <ServiceComponent />
             <div className="absolute left-0 bottom-0 z-10 w-full h-full">
