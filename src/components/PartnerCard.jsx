@@ -1,32 +1,32 @@
 function PartnerCard () {
     const partnerLists = [
         {
-            partnerImage: "https://placehold.co/370x440",
+            partnerImage: "src/images/partner_bmw.webp",
             partnername: "BMW",
             partnerDetail: "Corparate id maxime quos porro placeat quasi"
         },
         {
-            partnerImage: "https://placehold.co/370x440",
+            partnerImage: "src/images/partner_pdf.webp",
             partnername: "ERC",
             partnerDetail: "Asperiores nesciunt beatae possimus corporis deserunt."
         },
         {
-            partnerImage: "https://placehold.co/370x440",
+            partnerImage: "src/images/partner_seansuk.webp",
             partnername: "Saensuk City",
             partnerDetail: "Corparate id maxime quos porro placeat quasi"
         },
         {
-            partnerImage: "https://placehold.co/370x440",
+            partnerImage: "src/images/partner_bay.webp",
             partnername: "Bay Computing",
             partnerDetail: "Asperiores nesciunt beatae possimus corporis deserunt."
         },
         {
-            partnerImage: "https://placehold.co/370x440",
+            partnerImage: "src/images/partner_phibun.webp",
             partnername: "Phibun City",
             partnerDetail: "Corparate id maxime quos porro placeat quasi."
         },
         {
-            partnerImage: "https://placehold.co/185x220",
+            partnerImage: "src/images/partner_dga.webp",
             partnername: "DGA",
             partnerDetail: "Asperiores nesciunt beatae possimus corporis deserunt."
         },
@@ -36,6 +36,7 @@ function PartnerCard () {
         <div className="w-full">
             <section>
                 <h2 className="text-3xl font-bold text-center py-6">Our Partner</h2>
+                <div className="grid grid-cols-1 md:grid-cols-3">
                     {partnerLists.map((partner, index) =>
                     <div key={index} className="flex justify-center w-full">
                         <img className="w-1/2" src= {partner.partnerImage} />
@@ -45,6 +46,7 @@ function PartnerCard () {
                         </div>
                     </div>
                     )}
+                    </div>
             </section>
         </div>
     )

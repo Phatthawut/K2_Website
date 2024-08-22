@@ -45,17 +45,16 @@ function NavBar () {
                         <li><Link to="/">Home</Link>
                         </li>
                         <li><Link to="/ourwork">Our Work</Link></li>
-                        <li><Link to="/ourwork">Our Work</Link></li>
                     </ul>
                     </div>
                     <div className='flex-1 flex justify-center'>
                         <Link to="/">
-                        <img src='https://placehold.co/240' alt='logo'/>
+                        <img src='K2_white_logo.webp' alt='K2 logo'/>
                         </Link>
                     </div>
                     <div className="flex flex-1 justify-end gap-2">
-                            <a href='/'><FaFacebook /></a>
-                            <a href='/'><FaInstagram /></a>
+                    <a href='https://www.facebook.com/k2venture'><FaFacebook /></a>
+                    <a href='https://www.instagram.com/k2.venture/'><FaInstagram /></a>
                     </div>
             </nav>
             {/*mobile nav*/}
@@ -69,13 +68,13 @@ function NavBar () {
                     <div className='flex justify-center pl-6'>
                     <li>
                     <Link to="/">
-                    <img className='w-24' src='https://placehold.co/240' />
+                    <img className='w-24' src='K2_white_logo.webp' />
                     </Link>
                     </li>
                     </div>
                     <li className="flex gap-2">
-                        <a href='/'><FaFacebook /></a>
-                        <a href='/'><FaInstagram /></a>
+                        <a href='https://www.facebook.com/k2venture'><FaFacebook /></a>
+                        <a href='https://www.instagram.com/k2.venture/'><FaInstagram /></a>
                     </li>
                 </ul>
             </nav>
