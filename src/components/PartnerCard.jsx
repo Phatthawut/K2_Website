@@ -1,32 +1,32 @@
 function PartnerCard () {
     const partnerLists = [
         {
-            partnerImage: "src/images/partner_bmw.webp",
+            partnerImage: "images/partner_bmw.webp",
             partnername: "BMW",
             partnerDetail: "Corparate id maxime quos porro placeat quasi"
         },
         {
-            partnerImage: "src/images/partner_pdf.webp",
+            partnerImage: "images/partner_pdf.webp",
             partnername: "ERC",
             partnerDetail: "Asperiores nesciunt beatae possimus corporis deserunt."
         },
         {
-            partnerImage: "src/images/partner_seansuk.webp",
+            partnerImage: "images/partner_seansuk.webp",
             partnername: "Saensuk City",
             partnerDetail: "Corparate id maxime quos porro placeat quasi"
         },
         {
-            partnerImage: "src/images/partner_bay.webp",
+            partnerImage: "images/partner_bay.webp",
             partnername: "Bay Computing",
             partnerDetail: "Asperiores nesciunt beatae possimus corporis deserunt."
         },
         {
-            partnerImage: "src/images/partner_phibun.webp",
+            partnerImage: "images/partner_phibun.webp",
             partnername: "Phibun City",
             partnerDetail: "Corparate id maxime quos porro placeat quasi."
         },
         {
-            partnerImage: "src/images/partner_dga.webp",
+            partnerImage: "images/partner_dga.webp",
             partnername: "DGA",
             partnerDetail: "Asperiores nesciunt beatae possimus corporis deserunt."
         },

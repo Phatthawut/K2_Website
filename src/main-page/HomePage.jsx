@@ -6,16 +6,16 @@ function HomePage () {
     const heroData =
         {
             title: "NOTH/NG /s /MPOSS/BLE",
-            heroBGImage: "/src/images/hero_bg.webp"
+            heroBGImage: "images/hero_bg.webp"
         }
 
         const bgImage = 
         {
-            foundationBGImage: "src/images/foundation_bg.webp",
-            destinationBGImage: "src/images/destination_bg.webp",
-            teamBGImage: "src/images/team_bg.webp",
-            serviceLogoImage: "src/images/service.png",
-            serviceBGImage: "src/images/service_bg.webp",
+            foundationBGImage: "images/foundation_bg.webp",
+            destinationBGImage: "images/destination_bg.webp",
+            teamBGImage: "images/team_bg.webp",
+            serviceLogoImage: "images/service.png",
+            serviceBGImage: "images/service_bg.webp",
         }
 
     const partnerImage = 
