@@ -84,7 +84,7 @@ function NavBar () {
                         <ul className='pl-8'>
                         <li><Link to="/">Home</Link>
                         </li>
-                        <li><Link to="/ourwork">Our Work</Link></li>
+                        <li><Link to="/OWB">Our Work</Link></li>
                         </ul>
                     </nav>
                 </section>

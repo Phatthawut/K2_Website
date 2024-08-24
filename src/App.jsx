@@ -4,8 +4,8 @@ import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import HomePage from './main-page/HomePage'
 import ButtomMenu from './components/ButtomMenu'
-import OurWorkPage from './main-page/OurWorkPage'
 import ProjectPage from './main-page/ProjectPage'
+import OWBandingPage from './main-page/OWBandingPage'
 
 
 function App() {
@@ -26,8 +26,8 @@ function App() {
           element: <HomePage />
         },
         {
-          path: "/OurWork",
-          element: <OurWorkPage />
+          path: "/OWB",
+          element: <OWBandingPage />
         },
         {
           path: "/Project",
