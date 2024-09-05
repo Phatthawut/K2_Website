@@ -12,7 +12,8 @@ export default {
         Domine:["Domine"],
         Merriweather: ["Merriweather"],
         OpenSans:["OpenSans"],
-        SarvatrikLatinVF:["SarvatrikLatinVF"],
+        SarvatrikLatinVF:["sarvatrik-latin-variable"],
+        Kablammo:["Kablammo"]
       }
     },
   },

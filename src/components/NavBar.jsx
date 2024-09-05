@@ -44,7 +44,7 @@ function NavBar () {
                     <ul className='flex gap-4 font-semibold'>
                         <li><Link to="/">Home</Link>
                         </li>
-                        <li><Link to="/ourwork">Our Work</Link></li>
+                        {/* <li><Link to="/ourwork">Our Work</Link></li> */}
                     </ul>
                     </div>
                     <div className='flex-1 flex justify-center'>
@@ -84,7 +84,7 @@ function NavBar () {
                         <ul className='pl-8'>
                         <li><Link to="/">Home</Link>
                         </li>
-                        <li><Link to="/OWB">Our Work</Link></li>
+                        {/* <li><Link to="/OWB">Our Work</Link></li> */}
                         </ul>
                     </nav>
                 </section>

@@ -40,16 +40,6 @@ function OWBandingPage () {
         
         <div className='max-w-[1440px] mx-auto'>
             <ServiceBanner />
-            {/* <div className='bg-blue-800'>
-            <h2 className='text-white text-md font-bold px-32'>( K2 Venture Creative Communication Agency )</h2>
-            <div className='text-white text-5xl h-screen px-12'>
-                <div className='py-4 space-y-[-16px]'>
-                <h3>OUR</h3>
-                <h3>WORK</h3>
-                </div>
-                <h3 className='pb-4'>{workType}</h3>
-            </div>
-            </div> */}
                 <div className='w-full'>
                 {projectLists.map((project, index) => (
                     <ProjectCard
