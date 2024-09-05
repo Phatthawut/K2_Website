@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        Anek:["Anek"],
+        Arapey:["Arapey"],
+        Domine:["Domine"],
+        Merriweather: ["Merriweather"],
+        OpenSans:["OpenSans"],
+        SarvatrikLatinVF:["sarvatrik-latin-variable"],
+        Kablammo:["Kablammo"]
+      }
+    },
   },
   plugins: [],
 

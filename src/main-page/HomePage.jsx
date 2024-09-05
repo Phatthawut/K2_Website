@@ -1,6 +1,7 @@
 import HeroSection from "../components/HeroSection"
 import PartnerCard from "../components/PartnerCard"
 import ServiceComponent from "../components/ServiceComponent"
+import {Link} from 'react-router-dom'
 
 function HomePage () {
     const heroData =
@@ -18,11 +19,6 @@ function HomePage () {
             serviceBGImage: "images/service_bg.webp",
         }
 
-    const partnerImage = 
-        {
-            partnerBMImage: "https://placehold.co/1440x600/blue/white",
-            projectBGImage2: "https://placehold.co/1440x600/orange/white"
-        }
     return (
     <div className="flex flex-col max-w-[1440px] mx-auto">
         <HeroSection title={heroData.title} heroBGImage={heroData.heroBGImage} />
@@ -59,7 +55,7 @@ function HomePage () {
             </div>
         </div>
         {/* section team technique terrain */}
-        <div style={{ backgroundImage: `url(${bgImage.teamBGImage})`}} className="relative px-14 md:px-60 lg:flex gap-2 lg:pl-0 text-white bg-blue-700 min-h-[600px] bg-cover bg-center" >
+        <div style={{ backgroundImage: `url(${bgImage.teamBGImage})`}} className="relative px-14 md:px-60 lg:flex gap-2 lg:pl-0 text-white bg-blue-700 min-h-[600px] bg-cover bg-center">
             {/* team */}
             <div className="flex flex-col items-center py-4 px-8 h-96 bg-gradient-to-b from-blue-500 from-70% lg:pt-64 lg:w-[260px]">
                 <h2 className="text-3xl pb-4 uppercase">Team</h2>
@@ -81,6 +77,10 @@ function HomePage () {
                 
                 <p className="font-thin pt-2 leading-4 text-balance text-sm">Just as reaching the summit of a mountain requires tenacity, Our commitment to overcoming challenges drives us to achieve expectional results for our clients</p>
             </div>
+            <div className="absolute right-0 bottom-0 z-10 w-full h-full">
+    <div className="absolute right-0 bottom-0 w-1 h-full bg-yellow-400"></div>
+    <div className="absolute right-0 bottom-0 w-full h-1 bg-yellow-400"></div>
+            </div>
         </div>
 
         {/* service section */}
@@ -89,12 +89,15 @@ function HomePage () {
             <img className="" src= {bgImage.serviceLogoImage} alt='service'/>
             </div>
             <ServiceComponent />
-            <div className="absolute left-0 bottom-0 z-10 w-full h-full">
+            <div className="absolute left-0 bottom-0 z-10 w-full h-full pointer-events-none">
                 <div className="w-1 h-full bg-yellow-400 "></div>
                 <div className="w-full h-1 bg-yellow-400"></div>
             </div>
         </div>
         <PartnerCard />
+        <Link to="/OWB">
+    <div>Click Me</div>
+</Link>
     </div>
     )
 }
