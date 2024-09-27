@@ -10,10 +10,9 @@ export default {
         Anek:["Anek"],
         Arapey:["Arapey"],
         Domine:["Domine"],
-        Merriweather: ["Merriweather"],
-        OpenSans:["OpenSans"],
-        SarvatrikLatinVF:["sarvatrik-latin-variable"],
-        Kablammo:["Kablammo"]
+        Rokkitt: ["Rokkitt"],
+        OpenSans:["Open Sans"],
+        NotoSans:["Noto Sans"]
       }
     },
   },
