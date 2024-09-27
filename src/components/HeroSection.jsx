@@ -7,8 +7,8 @@ function HeroSection ({title, heroBGImage}) {
                 <div className="w-1 h-screen bg-yellow-400 "></div>
             </div>
         <div style={{ backgroundImage: `url(${heroBGImage})`,height: '100vh', backgroundSize: 'cover', backgroundPosition: 'center' }} className="relative flex items-center justify-center">
-            <div className="flex flex-col text-white text-center z-20">
-            <h3 className="text-2xl font-bold">{title}
+            <div className="flex flex-col -mt-72 text-white text-center z-20">
+            <h3 className="text-md md:text-2xl font-bold tracking-[.3em]">{title}
 			</h3>
         </div>
         </div>
