@@ -16,25 +16,25 @@ function ServiceComponent () {
         {
             projectBGImage: "images/socialmedia_bg.webp",
             serviceName: 'Social Media',
-            serviceLink: '/OWB',
+            serviceLink: '/',
             serviceTypes: ['Social Media Strategy','Content Planning & Scheduling'],
         },
         {
             projectBGImage: "images/digital_bg.webp",
             serviceName: 'Digital',
-            serviceLink: '/OWB',
+            serviceLink: '/',
             serviceTypes: ['Website Development', 'Digital Advertising', 'UX UI Design & Programming'],
         },
         {
             projectBGImage: "images/events_bg.webp",
             serviceName: 'Events',
-            serviceLink: '/OWB',
+            serviceLink: '/',
             serviceTypes: ['New Experience Activities', 'Sustainability Events', 'Team Building Events', 'Lifestyle Events', 'Workshops'],
         },
         {
             projectBGImage: "images/branding_bg.webp",
             serviceName: 'Branding',
-            serviceLink: '/OWB',
+            serviceLink: '/',
             serviceTypes: ['Brand Visual Identity', 'Brand Architecture', 'Brand Strategy', 'Rebranding'],
         }
     ]   
@@ -42,11 +42,12 @@ function ServiceComponent () {
         <>
         {serviceLists.map((serviceList, index) =>  
             <Link to={serviceList.serviceLink} key={index} className="w-full">
-            <div className="text-center w-full h-56 lg:h-96 lg:text-3xl" style={{ backgroundImage: `url(${serviceList.projectBGImage})` }}>
+            <div className="text-center w-full h-56 lg:h-96" style={{ backgroundImage: `url(${serviceList.projectBGImage})` }}>
             
-            <h3 className="font-semibold uppercase text-2xl pt-4 pb-2">{serviceList.serviceName}</h3>
-            {serviceList.serviceTypes.map((serviceType, index) =>
-            <p key={index}>{serviceType}</p>)}
+            <h3 className="font-semibold uppercase text-2xl lg:text-5xl pt-4 lg:pt-10 pb-2">{serviceList.serviceName}</h3>
+            <div className="lg:grid grid-cols-3">{serviceList.serviceTypes.map((serviceType, index) =>
+            <p className="lg:text-2xl" key={index}>{serviceType}</p>)}
+            </div>
             
             </div>
             </Link>
