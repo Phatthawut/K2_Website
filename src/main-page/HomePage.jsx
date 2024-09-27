@@ -107,9 +107,6 @@ function HomePage () {
             </div>
         </div>
         <PartnerCard />
-        <Link to="/OWB">
-    <div>Click Me</div>
-</Link>
     </div>
     )
 }
