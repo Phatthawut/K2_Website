@@ -13,7 +13,7 @@ function ProjectCard ({projectClientName,
                     <h3>{projectClientName}</h3>
                     </div>
                         <div className="leading-4 border-b">
-                        <h3 className="font-OpenSans font-light">{projectName}</h3>
+                        <h3 className="font-Open Sans font-light">{projectName}</h3>
                         <h3 className="pb-2 font-Merriweather">{projectType}</h3>
                         </div>
                     </div>

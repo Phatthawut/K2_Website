@@ -23,7 +23,7 @@ function HomePage () {
     <div className="flex flex-col max-w-[1440px] mx-auto">
         <HeroSection title={heroData.title} heroBGImage={heroData.heroBGImage} />
         {/* about 1 foundation*/}
-        <div id="aboutus" style={{ backgroundImage: `url(${bgImage.foundationBGImage})` }} className="relative min-h-[680px] py-8">
+        <div id="aboutus" style={{ backgroundImage: `url(${bgImage.foundationBGImage})` }} className="relative min-h-[680px] py-8 bg-center bg-cover">
             <div className="text-sm text-white font-bold text-center pb-6 md:text-right md:pr-14"><h2>(k2 Venture Creative Communication Agency)</h2></div>
             <div className="flex flex-col md:gap-12 md:py-20 text-center h-full text-white text-xl font-bold md:text-3xl lg:text-5xl">
                 <div className="lg:flex gap-6 justify-center items-end">
