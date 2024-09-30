@@ -39,20 +39,21 @@ function ServiceComponent () {
         }
     ]   
     return (
-        <>
+        <div className="md:flex flex-col w-full">
         {serviceLists.map((serviceList, index) =>  
             <Link to={serviceList.serviceLink} key={index} className="w-full">
-            <div className="text-center w-full h-56 lg:h-96" style={{ backgroundImage: `url(${serviceList.projectBGImage})` }}>
-            
-            <h3 className="font-semibold uppercase text-2xl lg:text-5xl pt-4 lg:pt-10 pb-2">{serviceList.serviceName}</h3>
-            <div className="lg:grid grid-cols-3">{serviceList.serviceTypes.map((serviceType, index) =>
-            <p className="lg:text-2xl" key={index}>{serviceType}</p>)}
+            <div className="w-full min-h-56 lg:h-96 bg-cover bg-center bg-blue-300" style={{ backgroundImage: `url(${serviceList.projectBGImage})`}}>
+            <div className="mx-8">
+                <h3 className="font-semibold uppercase text-2xl lg:text-5xl pt-4 lg:pt-10 pb-6 text-center">{serviceList.serviceName}</h3>
+                <div className="lg:grid grid-cols-3">{serviceList.serviceTypes.map((serviceType, index) =>
+                <p className="md:flex lg:text-2xl items-start" key={index}>{serviceType}</p>)}
+                </div>
             </div>
             
             </div>
             </Link>
     )}  
-        </>
+        </div>
     );
 }
 export default ServiceComponent

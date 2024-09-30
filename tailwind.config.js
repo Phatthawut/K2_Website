@@ -12,7 +12,8 @@ export default {
         Domine:["Domine"],
         Rokkitt: ["Rokkitt"],
         OpenSans:["Open Sans"],
-        NotoSans:["Noto Sans"]
+        NotoSans:["Noto Sans"],
+        Merriweather:["Merriweather"]
       }
     },
   },
