@@ -5,13 +5,7 @@ import ProjectCard from '../components/ProjectCard'
 function OWBandingPage () {
     const workType = "Branding & Visual Design";
     const projectLists = [
-        {
-            projectClientName: "Nongmon Market",
-            projectName: "NONGMON 24+7",
-            projectType: "Banding & Visual Design",
-            projectImage: "images/service_branding_nongmon.webp",
-            projectBGImage: "images/service_branding_bg01.webp"
-        },
+        
         {
             projectClientName: "Power Development Fund Thailand",
             projectName: "PDF ERC",
@@ -57,3 +51,11 @@ function OWBandingPage () {
 }
 
 export default OWBandingPage
+
+{{/* {
+    projectClientName: "Nongmon Market",
+    projectName: "NONGMON 24+7",
+    projectType: "Banding & Visual Design",
+    projectImage: "images/service_branding_nongmon.webp",
+    projectBGImage: "images/service_branding_bg01.webp"
+}, */}}
