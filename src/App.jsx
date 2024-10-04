@@ -6,7 +6,6 @@ import HomePage from './main-page/HomePage'
 import ButtomMenu from './components/ButtomMenu'
 import ProjectPage from './main-page/ProjectPage'
 import OWBandingPage from './main-page/OWBandingPage'
-import ComingSoon from './main-page/ComingSoon'
 
 
 function App() {
@@ -24,7 +23,7 @@ function App() {
       children: [
         {
           path: "",
-          element: <ComingSoon />
+          element: <HomePage />
         },
         {
           path: "/OWB",

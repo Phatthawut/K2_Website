@@ -1,34 +1,30 @@
 function PartnerCard () {
     const partnerLists = [
-        {
-            partnerImage: "images/partner_bmw.webp",
-            partnername: "BMW",
-            partnerDetail: "Corparate id maxime quos porro placeat quasi"
-        },
+        
         {
             partnerImage: "images/partner_pdf.webp",
             partnername: "ERC",
-            partnerDetail: "Asperiores nesciunt beatae possimus corporis deserunt."
+            partnerDetail: ""
         },
         {
             partnerImage: "images/partner_seansuk.webp",
             partnername: "Saensuk City",
-            partnerDetail: "Corparate id maxime quos porro placeat quasi"
+            partnerDetail: ""
         },
         {
             partnerImage: "images/partner_bay.webp",
             partnername: "Bay Computing",
-            partnerDetail: "Asperiores nesciunt beatae possimus corporis deserunt."
+            partnerDetail: ""
         },
         {
             partnerImage: "images/partner_phibun.webp",
             partnername: "Phibun City",
-            partnerDetail: "Corparate id maxime quos porro placeat quasi."
+            partnerDetail: ""
         },
         {
             partnerImage: "images/partner_dga.webp",
             partnername: "DGA",
-            partnerDetail: "Asperiores nesciunt beatae possimus corporis deserunt."
+            partnerDetail: ""
         },
     ]
 
@@ -41,7 +37,7 @@ function PartnerCard () {
                     <div key={index} className="flex justify-center w-full">
                         <img className="w-1/2" src= {partner.partnerImage} />
                         <div className="flex flex-col justify-center items-center w-1/2 bg-slate-100">
-                            <h3 className="text-lg pb-4">{partner.partnername}</h3>
+                            <h3 className="text-lg md:text-xl pb-4">{partner.partnername}</h3>
                             <h3 className="text-lg font-medium px-4">{partner.partnerDetail}</h3>
                         </div>
                     </div>
