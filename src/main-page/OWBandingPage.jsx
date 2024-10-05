@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 
 import ServiceBanner from '../components/ServiceBanner';
 import ProjectCard from '../components/ProjectCard'
@@ -29,6 +30,9 @@ function OWBandingPage () {
         },
     ]
     
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         

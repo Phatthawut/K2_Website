@@ -1,7 +1,9 @@
+import { useEffect } from "react";
+import {Link} from 'react-router-dom'
+
 import HeroSection from "../components/HeroSection"
 import PartnerCard from "../components/PartnerCard"
 import ServiceComponent from "../components/ServiceComponent"
-import {Link} from 'react-router-dom'
 
 function HomePage () {
     const heroData =
@@ -19,21 +21,25 @@ function HomePage () {
             serviceBGImage: "images/service_bg.webp",
         }
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
-    <div className="flex flex-col max-w-[1440px] mx-auto">
+    <div className="flex flex-col max-w-[1920px] mx-auto">
         <HeroSection title={heroData.title} heroBGImage={heroData.heroBGImage} />
         {/* about 1 foundation*/}
-        <div id="aboutus" style={{ backgroundImage: `url(${bgImage.foundationBGImage})` }} className="relative min-h-[680px] py-8 bg-center bg-cover">
-            <div className="text-sm text-white font-bold text-center pb-6 md:text-right md:pr-14"><h2>(k2 Venture Creative Communication Agency)</h2></div>
-            <div className="flex flex-col md:gap-12 md:py-20 text-center h-full text-white text-xl font-bold md:text-3xl lg:text-5xl">
-                <div className="lg:flex gap-6 justify-center items-end">
-                    <h3 className="font-semibold">BUILT <span className="font-NotoSans font-normal italic">on the </span><span className="font-OpenSans font-thin">FOUNDATION<br /></span><span className="font-NotoSans font-normal italic">of</span><span className="font-OpenSans font-thin"> ACHIEVING</span></h3>
-                    <h3 className="font-semibold"><span className="font-NotoSans font-normal italic">the </span>IMPOSSIBLE</h3>
+        <div id="aboutus" style={{ backgroundImage: `url(${bgImage.foundationBGImage})` }} className="relative py-12 bg-center bg-cover lg:min-h-[560px]">
+            <div className="text-xs lg:text-lg text-white font-bold text-center font-Arapey pb-6 lg:pb-16 md:text-right md:pr-10"><h2>(K2 Venture Creative Communication Agency)</h2></div>
+            <div className="flex flex-col md:py-18 text-center h-full text-white text-xl font-bold md:text-3xl lg:text-4xl">
+                <div className="lg:flex gap-32 justify-center items-end lg:pb-10">
+                    <h3 className="font-semibold leading-4 md:leading-8">BUILT <span className="font-Arapey font-normal italic">on the </span><span className="font-OpenSans font-thin">FOUNDATION<br /></span><span className="font-Arapey font-normal italic">of</span><span className="font-OpenSans font-thin"> ACHIEVING</span></h3>
+                    <h3 className="font-semibold py-4 md:py-6"><span className="font-Arapey font-normal italic">the </span>IMPOSSIBLE</h3>
                 </div>        
                 <div className="font-OpenSans">
-                    <h3 className="font-semibold md:-ml-72">WE BELIEVE <span className="font-NotoSans font-noral italic">in the </span> POWER <span className="font-NotoSans font-normal italic">of </span>
-                    <br /><span className="font-thin md:-ml-20">REACHING NEW HEIGHTS</span></h3>
-                    <h3 className="font-semibold items-end lg:indent-48"><span className="font-NotoSans font-normal italic">and </span> PUSHING BOUNDARIES</h3>
+                    <h3 className="font-semibold leading-4 md:leading-8 lg:-ml-72">WE BELIEVE <span className="font-Arapey font-noral italic">in the </span> POWER <span className="font-Arapey font-normal italic">of </span>
+                    <br /><span className="font-thin lg:-ml-20">REACHING NEW HEIGHTS</span></h3>
+                    <h3 className="font-semibold items-end pt-6 lg:indent-48"><span className="font-Arapey font-normal italic">and </span> PUSHING BOUNDARIES</h3>
                 </div>
             </div>
             <div className="absolute left-0 bottom-0 z-10 w-full">
@@ -42,25 +48,25 @@ function HomePage () {
             </div>
         </div>
         {/* about 2 not-just*/}
-        <div style={{ backgroundImage: `url(${bgImage.destinationBGImage})`}} className="relative text-center py-12 px-8 md:px-32 min-h-[600px] bg-cover bg-center">
+        <div style={{ backgroundImage: `url(${bgImage.destinationBGImage})`}} className="relative text-center py-8 px-8 md:px-32 min-h-[480px] bg-cover bg-center">
             <div className="flex flex-col w-full gap-8 text-white py-20">
-                <div className="text-left w-full uppercase leading-4 text-xl lg:text-6xl ">
+                <div className="text-left w-full uppercase leading-4 md:leading-7 text-xl md:text-3xl lg:text-5xl ">
                     <h3 className="font-OpenSans font-thin">it’s not ───
-                        <span className="font-NotoSans italic"> just</span><br />
-                        <span className="font-NotoSans lowercase italic">the</span>
+                        <span className="font-Arapey italic"> just</span><br />
+                        <span className="font-Arapey lowercase italic">the</span>
                         <span className="font-semibold"> destination</span><br />it’s 
-                        <span className="font-NotoSans lowercase italic"> the </span>
+                        <span className="font-Arapey lowercase italic"> the </span>
                         <span className="font-semibold">journey</span></h3>
                 </div>
-                <div className="text-center pl-16 md:pl-56 lg:pl-2 lg:text-3xl leading-4">
-                    <h3 className="md:indent-[6em] lg:indent-[2em]">foundation of achieving</h3>
-                    <h3 className="md:indent-[8em] lg:indent-[6em]">Our agency is built on the</h3>
-                    <h3 className="md:indent-[10em] lg:indent-[10em]">the impossible and to</h3>
-                    <h3 className="md:indent-[12em] lg:indent-[14em]">do that we need the</h3>
+                <div className="text-center lg:pl-2 md:text-xl lg:text-2xl leading-4 md:leading-5 font-OpenSans font-thin">
+                    <h3 className="md:-indent-[1em]">Our agency is built on the</h3>
+                    <h3 className="indent-[3em] md:indent-[3em]">foundation of achieving</h3>
+                    <h3 className="indent-[5em] md:indent-[8em]">the impossible and to</h3>
+                    <h3 className="indent-[7em] md:indent-[13em]">do that we need the</h3>
                 </div>
-                <div className="flex flex-col gap-4 items-end text-left">
-                    <h3 className="mr-24 md:mr-36 lg:mr-48">─────────</h3>
-                    <h3 className="text-2xl md:text-3xl lg:text-4xl  md:leading-5 leading-6 font-Arapey italic">right team<br />the right technique<br />and the right terrain</h3>
+                <div className="flex flex-col gap-4 self-end">
+                    <div className="divider divider-end bg-white h-0.5 w-1/2"></div>
+                    <h3 className="text-xl md:text-2xl lg:text-3xl font-Arapey italic text-left leading-5 md:leading-6 -mt-4">right team<br />the right technique<br />and the right terrain</h3>
                 </div>
             </div>
             <div className="absolute right-0 bottom-0 h-full z-10">
@@ -115,6 +121,12 @@ export default HomePage
 
 {/* old design team technique terrain
     
+    useEffect(() => {
+            window.scrollTo(0, 0);
+        }, []);
+
+
+
     <div className="flex flex-col justify-center items-center py-8 px-12 text-white bg-blue-700" >
     <img className="pb-6" src='https://placehold.co/180x80' alt='team'/>
     <h3 className="leading-4"><span className="font-bold">Our team</span> <span className="italic">is</span> A DIVERSE GROUP <span className="italic">of </span> <br />

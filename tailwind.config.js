@@ -12,12 +12,20 @@ export default {
         Domine:["Domine"],
         Rokkitt: ["Rokkitt"],
         OpenSans:["Open Sans"],
-        NotoSans:["Noto Sans"],
-        Merriweather:["Merriweather"]
+        NotoSans:["Noto Sans Thai"],
+        Merriweather:["Merriweather"],
+        BodoniModa:["Bodoni Moda"]
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  daisyui: {
+    themes: [
+      'light'
+    ]
+  },
 
   screens: {
     '2xs': { min: '300px' },
