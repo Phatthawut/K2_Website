@@ -6,6 +6,8 @@ import HomePage from './main-page/HomePage'
 import ButtomMenu from './components/ButtomMenu'
 import ProjectPage from './main-page/ProjectPage'
 import OWBandingPage from './main-page/OWBandingPage'
+import ProjectDetail from "./main-page/ProjectDetail";
+import NavBarProject from './components/NavBarProject'
 
 
 function App() {
@@ -14,10 +16,10 @@ function App() {
       path: "/",
       element: (
         <>
-        <NavBar />
-        <Outlet />
-        <ButtomMenu />
-        <Footer />
+          <NavBar />
+          <Outlet />
+          <ButtomMenu />
+          <Footer />
         </>
       ),
       children: [
@@ -33,6 +35,10 @@ function App() {
           path: "/Project",
           element: <ProjectPage />
         },
+        {
+          path: "/ProjectDetail",
+          element: <ProjectDetail />
+        },
       ]
     }
   ])
@@ -43,3 +49,13 @@ function App() {
 }
 
 export default App
+
+{ /* set 2 difference menu
+  <>
+  {location.pathname === '/' && <NavBar />}
+  {location.pathname === '/Project' && <NavBarProject />}
+  <Outlet />
+  <ButtomMenu />
+  <Footer />
+  </>
+*/}

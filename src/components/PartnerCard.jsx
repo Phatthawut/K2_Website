@@ -3,28 +3,28 @@ function PartnerCard () {
         
         {
             partnerImage: "images/partner_pdf.webp",
-            partnername: "ERC",
-            partnerDetail: ""
+            partnername: "Power Development Fund Thailand",
+            partnerDetail: "Government Agency"
         },
         {
             partnerImage: "images/partner_seansuk.webp",
-            partnername: "Saensuk City",
-            partnerDetail: ""
+            partnername: "Saensuk City (Bangsaen)",
+            partnerDetail: "Municipality"
         },
         {
             partnerImage: "images/partner_bay.webp",
             partnername: "Bay Computing",
-            partnerDetail: ""
+            partnerDetail: "Cyber Scurity"
         },
         {
             partnerImage: "images/partner_phibun.webp",
-            partnername: "Phibun City",
-            partnerDetail: ""
+            partnername: "Phibun City (Ubolratchathani)",
+            partnerDetail: "Municipality"
         },
         {
             partnerImage: "images/partner_dga.webp",
             partnername: "DGA",
-            partnerDetail: ""
+            partnerDetail: "Digital Government Agency"
         },
     ]
 
@@ -36,9 +36,9 @@ function PartnerCard () {
                     {partnerLists.map((partner, index) =>
                     <div key={index} className="flex justify-center w-full">
                         <img className="w-1/2" src= {partner.partnerImage} />
-                        <div className="flex flex-col justify-center items-center w-1/2 bg-slate-100">
-                            <h3 className="text-lg md:text-xl pb-4">{partner.partnername}</h3>
-                            <h3 className="text-lg font-medium px-4">{partner.partnerDetail}</h3>
+                        <div className="flex flex-col gap-8 w-1/2 py-14 md:py-8 px-1 bg-slate-100 font-OpenSans text-lg">
+                            <h3 className="w-1/2 text-wrap">{partner.partnername}</h3>
+                            <h3 className="w-1/2 font-semibold">{partner.partnerDetail}</h3>
                         </div>
                     </div>
                     )}
@@ -49,3 +49,11 @@ function PartnerCard () {
 }
 
 export default PartnerCard
+
+{{/* 
+    {
+            partnerImage: "images/partner_bmw.webp",
+            partnername: "BMW",
+            partnerDetail: "Corparate id maxime quos porro placeat quasi"
+        },
+*/}}

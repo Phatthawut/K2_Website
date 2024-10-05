@@ -11,6 +11,10 @@ function NavBar () {
         setMoblieNavVisble(!moblieNavVisible)
     }
 
+    function closeMobileNav() {
+        setMoblieNavVisble(false)
+    }
+
     function scrollToTop() {
         window.scroll({top:0, behavior: 'smooth'})
     }
@@ -39,12 +43,12 @@ function NavBar () {
     return (
         <header className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${navBarScrolled ? 'bg-blue-800' : 'bg-transparent'}`}>
             {/*desktop nav*/}
-            <nav className="hidden lg:flex items-center max-w-[1440px] mx-auto text-white text-3xl px-8">
+            <nav className="hidden lg:flex items-center max-w-[1920px] mx-auto text-white text-2xl px-8 md:px-18">
                 <div className='flex flex-1'>
-                    <ul className='flex gap-4 font-semibold'>
-                        <li><Link to="/">Home</Link>
-                        </li>
-                        {/* <li><Link to="/ourwork">Our Work</Link></li> */}
+                    <ul className='flex gap-6 font-semibold'>
+                    <li><Link to="/">Home</Link></li>
+                        {/* <li><Link to="/ProjectDetail">Project</Link></li>
+                        <li><Link to="/OWB">Our Work</Link></li> */}
                     </ul>
                     </div>
                     <div className='flex-1 flex justify-center'>
@@ -58,7 +62,7 @@ function NavBar () {
                     </div>
             </nav>
             {/*mobile nav*/}
-            <nav className={`sticky top-0 lg:hidden bg-blue-800 text-white text-lg pb-6 px-6 z-40 ${navBarScrolled ? 'bg-blue-800' : 'bg-transparent'}`}>
+            <nav className={`sticky top-0 lg:hidden bg-blue-800 text-white text-lg px-6 z-40 ${navBarScrolled ? 'bg-blue-800' : 'bg-transparent'}`}>
                 <ul className='flex items-center justify-between'>
                     <li className='flex'>
                         <button onClick={toggleMoblieNav}>
@@ -80,17 +84,18 @@ function NavBar () {
             </nav>
             {moblieNavVisible && (
                 <section className='bg-blue-800 text-white text-lg font-semibold'>
-                    <nav className='w-full'>
+                    <nav className='w-full pb-4'>
                         <ul className='pl-8'>
-                        <li><Link to="/">Home</Link>
-                        </li>
-                        {/* <li><Link to="/OWB">Our Work</Link></li> */}
+                        <li><Link to="/" onClick={closeMobileNav}>Home</Link></li>
+                        {/* <li><Link to="/ProjectDetail" onClick={closeMobileNav}>Project</Link></li>
+                        <li><Link to="/OWB" onClick={closeMobileNav}>Our Work</Link></li> */}
+                        
                         </ul>
                     </nav>
                 </section>
             )}
             {showScrollTopButton && (
-                <button onClick={scrollToTop} className="fixed bottom-8 right-8 bg-blue-800 text-white p-2 shadow-lg rounded-full hover:bg-blue-700 transition-colors"
+                <button onClick={scrollToTop} className="fixed bottom-8 right-8 bg-blue-700 text-white p-2 shadow-lg rounded-full hover:bg-blue-700 transition-colors"
                 ><FaArrowUp size={24} />
                 </button>
             )}
