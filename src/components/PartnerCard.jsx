@@ -18,7 +18,7 @@ function PartnerCard () {
         },
         {
             partnerImage: "images/partner_phibun.webp",
-            partnername: "Phibun City (Ubolratchathani)",
+            partnername: "Phibun City (Ubol Ratchathani)",
             partnerDetail: "Municipality"
         },
         {

@@ -5,9 +5,13 @@ import Footer from './components/Footer'
 import HomePage from './main-page/HomePage'
 import ButtomMenu from './components/ButtomMenu'
 import ProjectPage from './main-page/ProjectPage'
-import OWBandingPage from './main-page/OWBandingPage'
 import ProjectDetail from "./main-page/ProjectDetail";
 import NavBarProject from './components/NavBarProject'
+import ContentCreationPage from './main-page/ContentCreationPage'
+import BrandingPage from './main-page/BrandingPage'
+import EventPage from './main-page/EventPage'
+import TotalSolutionPage from './main-page/TotalSolutionPage'
+import DigitalPage from './main-page/DigitalPage'
 
 
 function App() {
@@ -28,12 +32,28 @@ function App() {
           element: <HomePage />
         },
         {
-          path: "/OWB",
-          element: <OWBandingPage />
+          path: "/Total-Solution",
+          element: <TotalSolutionPage />
+        },
+        {
+          path: "/Storytelling",
+          element: <ContentCreationPage />
+        },
+        {
+          path: "/Digital",
+          element: <DigitalPage />
+        },
+        {
+          path: "/Events",
+          element: <EventPage />
         },
         {
           path: "/Project",
           element: <ProjectPage />
+        },
+        {
+          path: "/Branding",
+          element: <BrandingPage />
         },
         {
           path: "/ProjectDetail",
