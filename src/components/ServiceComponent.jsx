@@ -4,13 +4,13 @@ function ServiceComponent () {
     const serviceLists = [{
         projectBGImage: "images/totalsolution_bg.webp",
         serviceName: 'Total Solution',
-        serviceLink: '/OWB',
+        serviceLink: '/Total-Solution',
         serviceTypes: ['Marketing Strategy','360 Communication','Influencer Marketing', 'Digital Marketing','Marketing Research Report'],
         },
         {
             projectBGImage: "images/storytelling_bg.webp",
             serviceName: 'Storytelling',
-            serviceLink: '/',
+            serviceLink: '/Storytelling',
             serviceTypes: ['Film & Photography', 'Content Creation'],
         },
         {
@@ -22,19 +22,19 @@ function ServiceComponent () {
         {
             projectBGImage: "images/digital_bg.webp",
             serviceName: 'Digital',
-            serviceLink: '/',
+            serviceLink: '/Digital',
             serviceTypes: ['Website Development', 'Digital Advertising', 'UX UI Design & Programming'],
         },
         {
             projectBGImage: "images/events_bg.webp",
             serviceName: 'Events',
-            serviceLink: '/',
+            serviceLink: '/Events',
             serviceTypes: ['New Experience Activities', 'Sustainability Events', 'Team Building Events', 'Lifestyle Events', 'Workshops'],
         },
         {
             projectBGImage: "images/branding_bg.webp",
             serviceName: 'Branding',
-            serviceLink: '/',
+            serviceLink: '/Branding',
             serviceTypes: ['Brand Visual Identity', 'Brand Architecture', 'Brand Strategy', 'Rebranding'],
         }
     ]   
