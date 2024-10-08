@@ -10,11 +10,13 @@ function BandnerSection ({bannerName}) {
     return (
         <div className="relative w-full">
         <div className="relative flex flex-col items-center justify-evenly bg-blue-700 h-[100vh] text-white font-bold">
+            <div className="w-full ">
             <div className="divider w-4/5 mx-auto bg-white h-0.5"></div>
-            <h2 className="font-Domine text-3xl md:text-4xl text-center w-1/2 md:w-1/3 lg:hidden">( K2 Venture Creative Comunication Agency )</h2>
-            <div className="lg:flex w-full px-28 -mt-48 justify-between font-Domine text-lg hidden">
+            <h2 className="font-Domine text-3xl md:text-4xl text-center mx-auto w-1/2 md:w-1/3 lg:hidden">( K2 Venture Creative Comunication Agency )</h2>
+            <div className="lg:flex w-full px-28 justify-between font-Domine text-lg hidden">
                 <div>( K2 Venture</div>
-                <div>Creative Comunication Agency big)</div>
+                <div>Creative Comunication Agency)</div>
+            </div>
             </div>
             <div className="text-7xl md:text-8xl w-full pl-12 md:pl-32">
                 <h3 className="font-Arapey italic font-medium">{serviceData.title}</h3>
