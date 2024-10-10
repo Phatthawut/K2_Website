@@ -17,16 +17,14 @@ function BrandingHopeSpotPage () {
         }
 
     const projectImage = [
-        'images/Branding-Wdetail-PDF-01.webp', 
-        'images/Branding-Wdetail-PDF-02.webp', 
-        'images/Branding-Wdetail-PDF-03.webp', 
-        'images/Branding-Wdetail-PDF-04.webp', 
-        'images/Branding-Wdetail-PDF-05.webp', 
-        'images/Branding-Wdetail-PDF-06.webp', 
-        'images/Branding-Wdetail-PDF-07.webp', 
-        'images/Branding-Wdetail-PDF-08.webp',
-        'images/Branding-Wdetail-PDF-09.webp',
-        'images/Branding-Wdetail-PDF-010.webp',
+        'images/Branding-Wdetail-HopeSpot-01.webp', 
+        'images/Branding-Wdetail-HopeSpot-02.webp', 
+        'images/Branding-Wdetail-HopeSpot-03.webp', 
+        'images/Branding-Wdetail-HopeSpot-04.webp', 
+        'images/Branding-Wdetail-HopeSpot-05.webp', 
+        'images/Branding-Wdetail-HopeSpot-06.webp', 
+        'images/Branding-Wdetail-HopeSpot-07.webp', 
+        'images/Branding-Wdetail-HopeSpot-08.webp',
     ]
 
     const projectDescription = {
