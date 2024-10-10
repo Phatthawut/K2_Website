@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 
-import BandnerProjectDetail from "../components/BandnerProjectDetail";
-import ProjectDetailContent from "../components/ProjectDetailContent";
-import ProjectDetailCard from "../components/ProjectDetailImageCard";
+import BandnerProjectDetail from "../../components/BannerProjectDetail";
+import ProjectDetailContent from "../../components/ProjectDetailContent";
+import ProjectDetailCard from "../../components/ProjectDetailImageCard";
 
-function ProjectDetail () {
+function ProjectDetailPage () {
     const projectDetail = [
         
         {
@@ -43,4 +43,4 @@ function ProjectDetail () {
     )
 }
 
-export default ProjectDetail
+export default ProjectDetailPage
