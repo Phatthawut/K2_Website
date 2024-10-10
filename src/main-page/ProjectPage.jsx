@@ -1,4 +1,4 @@
-import BandnerSection from "../components/BandnerSection"
+import BandnerSection from "../components/BannerSection"
 
 function ProjectPage () {
     return (

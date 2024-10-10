@@ -11,21 +11,24 @@ function BrandingPage () {
             projectName: "PDF ERC",
             projectType: "Mini Website",
             projectImage: "images/service_branding_pdf.webp",
-            projectBGImage: "images/service_branding_bg01.webp"
+            projectBGImage: "images/service_branding_bg01.webp",
+            projectLink: "/PDF-ERC"
         },
         {
             projectClientName: "Power Development Fund Thailand",
             projectName: "Hope Spot",
             projectType: "Visual Identity",
             projectImage: "images/service_branding_hopespot.webp",
-            projectBGImage: "images/service_branding_bg02.webp"
+            projectBGImage: "images/service_branding_bg02.webp",
+            projectLink: "/Hope-Spot"
         },
         {
             projectClientName: "Songkla Chamber of Commerce",
             projectName: "Hatyai",
             projectType: "Visual Identity",
             projectImage: "images/service_branding_hatyai.webp",
-            projectBGImage: "images/service_branding_bg01.webp"
+            projectBGImage: "images/service_branding_bg01.webp",
+            projectLink: "/Hatyai-Jazz"
         },
     ]
     
@@ -41,6 +44,7 @@ function BrandingPage () {
                 {projectLists.map((project, index) => (
                     <ProjectCard
                         key={index}
+                        projectLink={project.projectLink}
                         projectClientName= {project.projectClientName}
                         projectName= {project.projectName}
                         projectType= {project.projectType}
@@ -60,5 +64,6 @@ export default BrandingPage
     projectName: "NONGMON 24+7",
     projectType: "Banding & Visual Design",
     projectImage: "images/service_branding_nongmon.webp",
-    projectBGImage: "images/service_branding_bg01.webp"
+    projectBGImage: "images/service_branding_bg01.webp",
+    projectLink: "/Nongmon"
 }, */}}

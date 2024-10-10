@@ -1,4 +1,4 @@
-function BandnerSection ({bandnerName}) {
+function BannerSection ({bandnerName}) {
     const heroData = [
         {
             clientName: "Nongmon Market",
@@ -19,4 +19,4 @@ function BandnerSection ({bandnerName}) {
     )
 }
 
-export default BandnerSection
+export default BannerSection
