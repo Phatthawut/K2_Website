@@ -36,11 +36,11 @@ function ContentPDFPage () {
         listname: 'Simplify Content',
         description: 'การรวบรวมเนื้อหาจากโครงการที่ผ่านมามาทำการ Re-Arrange/Re-Edit/Re-write เพื่อให้เหมาะสมกับกลุ่มเป้าหมาย'},
         {
-        listname: 'Simplify Content',
-        description: 'การรวบรวมเนื้อหาจากโครงการที่ผ่านมามาทำการ Re-Arrange/Re-Edit/Re-write เพื่อให้เหมาะสมกับกลุ่มเป้าหมาย'},
+        listname: 'Synchronize Multi Platform to Multi Target',
+        description: 'การนำคอนเทนต์ที่ผ่านการ simplify ไปเผยแพร่และสื่อสารไปยังกลุ่มเป้าหมายผ่านแพลตฟอร์มโซเชียลมีเดีย'},
         {
-        listname: 'Simplify Content',
-        description: 'การรวบรวมเนื้อหาจากโครงการที่ผ่านมามาทำการ Re-Arrange/Re-Edit/Re-write เพื่อให้เหมาะสมกับกลุ่มเป้าหมาย'},
+        listname: 'Lead Traffic to Website & Facebook',
+        description: 'การเพิ่มจำนวนผู้เข้าเยี่ยมชมคอนเทนต์ โดยการยิง Ads เพื่อดึงให้ผู้ชมคอนเทนต์จากทุกแพลตฟอร์มกลับมาดูคอนเทนต์ ฉบับเต็มที่ website และ facebook ของกองทุนฯ'},
     ]
 
     useEffect(() => {

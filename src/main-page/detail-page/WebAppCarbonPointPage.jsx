@@ -28,13 +28,13 @@ function WebAppCarbonPointPage () {
     const projectDescription = {
         clientName: 'Hope Spot',
         projectType: 'Carbon Point Web App',
-        projectDescription: '‘Hope is the most innocent & powerful thing in the world’'
+        projectDescription: ''
     }
 
     const descriptionLists = [
         {
-            listname: 'test 2',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aut fugiat animi debitis suscipit nihil numquam accusantium nisi, maxime enim maiores dolorem repudiandae quo quae distinctio blanditiis corrupti earum quisquam.'}
+            listname: '',
+            description: ''}
     ]
 
     useEffect(() => {

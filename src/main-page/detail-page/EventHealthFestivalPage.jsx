@@ -28,7 +28,7 @@ function EventHealthFestivalPage () {
     const projectDescription = {
         clientName: 'Saensuk Municipality',
         projectType: 'Health Festival',
-        projectDescription: '’'
+        projectDescription: ''
     }
 
     const descriptionLists = [

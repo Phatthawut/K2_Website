@@ -35,14 +35,8 @@ function ContentHopePage () {
 
     const descriptionLists = [
         {
-        listname: 'Simplify Content',
-        description: 'การรวบรวมเนื้อหาจากโครงการที่ผ่านมามาทำการ Re-Arrange/Re-Edit/Re-write เพื่อให้เหมาะสมกับกลุ่มเป้าหมาย'},
-        {
-        listname: 'Simplify Content',
-        description: 'การรวบรวมเนื้อหาจากโครงการที่ผ่านมามาทำการ Re-Arrange/Re-Edit/Re-write เพื่อให้เหมาะสมกับกลุ่มเป้าหมาย'},
-        {
-        listname: 'Simplify Content',
-        description: 'การรวบรวมเนื้อหาจากโครงการที่ผ่านมามาทำการ Re-Arrange/Re-Edit/Re-write เพื่อให้เหมาะสมกับกลุ่มเป้าหมาย'},
+        listname: 'Goals',
+        description: 'สำหรับ Hope Spot Digital Content เราวางกลยุทธ์แบบ Relatable Sustainability Content เป็นการสร้าง Content ย่อยง่าย เล่าเรื่องราวของ Sustainability ผ่านมุมมองที่ใกล้ตัว เข้าถึงได้ง่าย ออกมาในรูปแบบ Multi-type ไม่ว่าจะเป็น บทความ ภาพนิ่ง วีดิโอคลิป อินโฟกราฟิก และเผยแพร่บน Multi-platform ไม่ว่าจะเป็น FB, IG, X, TikTok, YouTube ช่องทางของทาง Campaign เอง และทาง Influencer'}
     ]
 
     useEffect(() => {

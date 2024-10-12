@@ -28,13 +28,13 @@ function WebAppHopespotPage () {
     const projectDescription = {
         clientName: 'Hope Spot',
         projectType: 'Informative Website',
-        projectDescription: '‘Hope is the most innocent & powerful thing in the world’'
+        projectDescription: ''
     }
 
     const descriptionLists = [
         {
-            listname: 'test',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aut fugiat animi debitis suscipit nihil numquam accusantium nisi, maxime enim maiores dolorem repudiandae quo quae distinctio blanditiis corrupti earum quisquam.'}
+            listname: 'Goals',
+            description: 'สร้างสรรค์ดีไซน์และโครงสร้างข้อมูลของเว็บไซต์ Hope Spot โครงการ Sustainability Campaign ภายใต้กองทุนพัฒนาไฟฟ้า<!--split-->วางแผนการสื่อสารข้อมูลต่างๆออกมาในรูปแบบที่น่าอ่าน เป็นมิตร เข้าใจง่าย และครบถ้วนสำหรับทุกรายละเอียดของโครงการ  ไม่ว่าจะเป็นเรื่องของการบอกเล่าตัวตนของแคมเปญ ประกาศกิจกรรมอีเว้นท์และเวิร์คช้อปต่างๆ และการชักชวนให้ดาวน์โหลด Hope Spot App สะสมคะแนนโดยการทำภารกิจช่วยโลก<!--split-->ออกแบบภายใต้ Branding ของ Hope Spot ที่มี Natural Shape เป็นหลัก ไม่ geometric แบบเว็บไซท์ทั่วไป จึงต้องใช้ความละเอียดในการ Design และ Programming ให้ลงตัว'}
     ]
 
     useEffect(() => {
