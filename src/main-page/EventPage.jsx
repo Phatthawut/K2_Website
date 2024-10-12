@@ -12,21 +12,24 @@ function EventPage () {
             projectName: "Hope Spot Sustainable",
             projectType: "Activity Experience & Mini Concert",
             projectImage: "images/Events_Charity_Concert.webp",
-            projectBGImage: "images/service_branding_bg01.webp"
+            projectBGImage: "images/service_branding_bg01.webp",
+            projectLink: "/Hope-Spot-Event-mini-concert"
         },
         {
             projectClientName: "Saensuk Municipality",
             projectName: "Bangsaen",
             projectType: "Health Festival",
             projectImage: "images/Events_Banssean_Health_Festival.webp",
-            projectBGImage: "images/service_branding_bg02.webp"
+            projectBGImage: "images/service_branding_bg02.webp",
+            projectLink: "/Health-Festival-Event"
         },
         {
             projectClientName: "Power Development Fund Thailand",
             projectName: "Hope Spot", 
             projectType: "Sustainability Workshop",
             projectImage: "images/Events_Hope_spot_workshop.webp",
-            projectBGImage: "images/service_branding_bg01.webp"
+            projectBGImage: "images/service_branding_bg01.webp",
+            projectLink: "/Hope-Spot-Event-workshop"
         },
     ]
     
@@ -42,6 +45,7 @@ function EventPage () {
                 {projectLists.map((project, index) => (
                     <ProjectCard
                         key={index}
+                        projectLink={project.projectLink}
                         projectClientName= {project.projectClientName}
                         projectName= {project.projectName}
                         projectType= {project.projectType}
@@ -61,5 +65,6 @@ export default EventPage
             projectName: "BMW",
             projectType: "Excellence Club",
             projectImage: "images/Events_BMW_Excellence_Club.webp",
-            projectBGImage: "images/service_branding_bg02.webp"
+            projectBGImage: "images/service_branding_bg02.webp",
+            projectLink: "/BMW-Event"
 }, */}}

@@ -2,12 +2,12 @@ function BannerProjectDetail ({bannerDetail}) {
     return (
         <section>
             <div className="relative w-full">
-                <div style={{ backgroundImage: `url(${bannerDetail.heroBGImage})`,height: '80vh'}} className="relative flex items-center justify-center bg-center bg-cover">
-                    <div className="flex flex-col absolute text-white gap-28 md:gap-48 px-10 md:px-28 max-w-[1440px]">
+                <div style={{ backgroundImage: `url(${bannerDetail.heroBGImage})`,height: '100vh'}} className="relative flex items-center justify-center bg-center bg-cover">
+                    <div className="flex flex-col absolute text-white gap-28 md:gap-24 px-10 md:px-28 justify-center lg:pt-24 max-w-[1920px]">
                         <div className="">
                             <h3 className="font-Domine text-sm md:text-xl">{bannerDetail.serviceType}</h3>
                             <h3 className="text-3xl md:text-5xl lg:text-7xl font-OpenSans">{bannerDetail.projectName}</h3>
-                            <h3 className="text-2xl md:text-5xl lg:text-7xl font-semibold font-Merriweather">{bannerDetail.projectType}</h3>
+                            <h3 className="w-4/5 text-2xl md:text-5xl lg:text-7xl font-semibold font-Merriweather">{bannerDetail.projectType}</h3>
                         </div>
                         <div>
                         <h3 className="font-OpenSans text-right md:text-2xl uppercase">{bannerDetail.clientName}</h3>

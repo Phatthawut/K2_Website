@@ -13,28 +13,32 @@ function ContentCreationPage () {
             projectName: "Hope Spot",
             projectType: "Sustainable Content",
             projectImage: "images/Content_Creation_Hope_Spot.webp",
-            projectBGImage: "images/service_branding_bg01.webp"
+            projectBGImage: "images/service_branding_bg01.webp",
+            projectLink: "/Hope-Spot-Content"
         },
         {
             projectClientName: "Power Development Fund Thailand",
             projectName: "PDF ERC",
             projectType: "Content Management & Online Ads",
             projectImage: "images/Content_Creation_PDF_ERC.webp",
-            projectBGImage: "images/service_branding_bg02.webp"
+            projectBGImage: "images/service_branding_bg02.webp",
+            projectLink: "/PDF-Content"
         },
         {
             projectClientName: "Digital Government Development Agency",
             projectName: "DGA VDO",
             projectType: "Presentation",
             projectImage: "images/Content_Creation_DGA_VDO.webp",
-            projectBGImage: "images/service_branding_bg01.webp"
+            projectBGImage: "images/service_branding_bg01.webp",
+            projectLink: "/DGA-Content"
         },
         {
             projectClientName: "Saensuk Municipality",
             projectName: "Bangsaen Health Festival",
             projectType: "VDO Presentation",
             projectImage: "images/Content_Creation_Bangsaen_Health_Festival.webp",
-            projectBGImage: "images/service_branding_bg02.webp"
+            projectBGImage: "images/service_branding_bg02.webp",
+            projectLink: "/Bangsean"
         },
     ]
     
@@ -50,6 +54,7 @@ function ContentCreationPage () {
                 {projectLists.map((project, index) => (
                     <ProjectCard
                         key={index}
+                        projectLink={project.projectLink}
                         projectClientName= {project.projectClientName}
                         projectName= {project.projectName}
                         projectType= {project.projectType}

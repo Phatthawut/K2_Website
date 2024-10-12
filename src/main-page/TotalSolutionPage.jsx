@@ -12,21 +12,24 @@ function TotalSolutionPage () {
             projectName: "PDF ERC",
             projectType: "Integreted Communication",
             projectImage: "images/Total_Solution_Integreted_communication.webp",
-            projectBGImage: "images/service_branding_bg01.webp"
+            projectBGImage: "images/service_branding_bg01.webp",
+            projectLink: "/PDF-Total-Solution"
         },
         {
             projectClientName: "Power Development Fund Thailand",
             projectName: "Hope Spot",
             projectType: "360 Communication",
             projectImage: "images/Total_Solution_360_communication.webp",
-            projectBGImage: "images/service_branding_bg02.webp"
+            projectBGImage: "images/service_branding_bg02.webp",
+            projectLink: "/Hope-Spot-Total-Solution"
         },
         {
             projectClientName: "Phibun Mangsahan Municipality",
             projectName: "Kaesapue Run", 
             projectType: "Strategic City Marketing",
             projectImage: "images/Total_Solution_Strategic_city_marketing.webp",
-            projectBGImage: "images/service_branding_bg01.webp"
+            projectBGImage: "images/service_branding_bg01.webp",
+            projectLink: "/Kaesapue-Total-Solution"
         },
     ]
     
@@ -42,6 +45,7 @@ function TotalSolutionPage () {
                 {projectLists.map((project, index) => (
                     <ProjectCard
                         key={index}
+                        projectLink={project.projectLink}
                         projectClientName= {project.projectClientName}
                         projectName= {project.projectName}
                         projectType= {project.projectType}

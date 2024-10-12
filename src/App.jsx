@@ -16,6 +16,21 @@ import BrandingNongmonPage from './main-page/detail-page/BrandingNongmonPage'
 import BrandingPDFPage from './main-page/detail-page/BrandingPDFPage'
 import BrandingHopeSpotPage from './main-page/detail-page/BrandingHopeSpotPage'
 import BrandingHatyaiJazzPage from './main-page/detail-page/BrandingHatyaiJazzPage'
+import ContentBangseanPage from './main-page/detail-page/ContentBangseanPage'
+import ContentPDFPage from './main-page/detail-page/ContentPDFPage'
+import ContentDGAPage from './main-page/detail-page/ContentDGAPage'
+import ContentHopePage from './main-page/detail-page/ContentHopePage'
+import EventHopeSpotEMPage from './main-page/detail-page/EventHopeSpotEMPage'
+import EventHopeSpotWSPage from './main-page/detail-page/EventHopeSpotWSPage'
+import EventBMWPage from './main-page/detail-page/EventBMWPage'
+import EventHealthFestivalPage from './main-page/detail-page/EventHealthFestivalPage'
+import TotalPDFPage from './main-page/detail-page/TotalPDFPage'
+import TotalHopeSpotPage from './main-page/detail-page/TotalHopeSpotPage'
+import TotalKaesapuePage from './main-page/detail-page/TotalKaesapuePage'
+import WebAppPDFMainPage from './main-page/detail-page/WebAppPDFMainPage'
+import WebAppPDFMiniPage from './main-page/detail-page/WebAppPDFMiniPage'
+import WebAppCarbonPointPage from './main-page/detail-page/WebAppCarbonPointPage'
+import WebAppHopespotPage from './main-page/detail-page/WebAppHopespotPage'
 
 
 function App() {
@@ -60,10 +75,6 @@ function App() {
           element: <BrandingPage />
         },
         {
-          path: "/ProjectDetail",
-          element: <ProjectDetail />
-        },
-        {
           path: "/Nongmon",
           element: <BrandingNongmonPage />
         },
@@ -78,6 +89,66 @@ function App() {
         {
           path: "/Hatyai-Jazz",
           element: <BrandingHatyaiJazzPage />
+        },
+        {
+          path: "/Bangsean",
+          element: <ContentBangseanPage />
+        },
+        {
+          path: "/PDF-Content",
+          element: <ContentPDFPage />
+        },
+        {
+          path: "/DGA-Content",
+          element: <ContentDGAPage />
+        },
+        {
+          path: "/Hope-Spot-Content",
+          element: <ContentHopePage />
+        },
+        {
+          path: "/Hope-Spot-Event-mini-concert",
+          element: <EventHopeSpotEMPage />
+        },
+        {
+          path: "/Hope-Spot-Event-workshop",
+          element: <EventHopeSpotWSPage />
+        },
+        {
+          path: "/BMW-Event",
+          element: <EventBMWPage />
+        },
+        {
+          path: "/Health-Festival-Event",
+          element: <EventHealthFestivalPage />
+        },
+        {
+          path: "/PDF-Total-Solution",
+          element: <TotalPDFPage />
+        },
+        {
+          path: "/Hope-Spot-Total-Solution",
+          element: <TotalHopeSpotPage />
+        },
+        {
+          path: "/Kaesapue-Total-Solution",
+          element: <TotalKaesapuePage />
+        },
+        {
+          path: "/PDF-Mainsite-Website",
+          element: <WebAppPDFMainPage />
+        },
+        {
+          path: "/PDF-Minisite-Website",
+          element: <WebAppPDFMiniPage />
+        },
+        {
+          path: "/Hopespot-InformativeWeb-Website",
+          element: <WebAppHopespotPage />
+        },
+        {
+          path: "/Hopespot-CarbonPoint-WebApp",
+          element: <WebAppCarbonPointPage />
         },
       ]
     }
