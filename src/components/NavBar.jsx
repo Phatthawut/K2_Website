@@ -43,7 +43,7 @@ function NavBar () {
     return (
         <header className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${navBarScrolled ? 'bg-blue-800' : 'bg-transparent'}`}>
             {/*desktop nav*/}
-            <nav className="hidden lg:flex items-center max-w-[1920px] mx-auto text-white text-2xl px-8 md:px-18">
+            <nav className="hidden lg:flex items-center max-w-[1440px] mx-auto text-white text-2xl px-8 md:px-18">
                 <div className='flex flex-1'>
                     <ul className='flex gap-6 font-semibold'>
                     <li><Link to="/">Home</Link></li>
@@ -53,7 +53,7 @@ function NavBar () {
                     </div>
                     <div className='flex-1 flex justify-center'>
                         <Link to="/">
-                        <img src='K2_white_logo.webp' alt='K2 logo'/>
+                        <img className='max-h-44' src='K2_white_logo.webp' alt='K2 logo'/>
                         </Link>
                     </div>
                     <div className="flex flex-1 justify-end gap-2">

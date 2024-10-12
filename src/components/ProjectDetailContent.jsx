@@ -1,6 +1,7 @@
 function ProjectDetailContent ({projectDetailDescription, descriptionList}) {
 
-    const [firstPart, secondPart] = projectDetailDescription.projectType.split(' ');
+    const [firstPart, ...rest] = projectDetailDescription.projectType.split(' ')
+    const secondPart = rest.join(' ')
 
     return (
         <section className="flex justify-center">

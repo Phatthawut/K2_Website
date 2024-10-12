@@ -12,28 +12,32 @@ function DigitalPage () {
             projectName: "PDF ERC",
             projectType: "Main Website Design",
             projectImage: "images/Web_Development_PDF_Mainsite.webp",
-            projectBGImage: "images/service_branding_bg01.webp"
+            projectBGImage: "images/service_branding_bg01.webp",
+            projectLink: "/PDF-Mainsite-Website"
         },
         {
             projectClientName: "Power Development Fund Thailand",
             projectName: "PDF ERC",
             projectType: "Mini Website Design",
             projectImage: "images/Web_Development_PDF_Minisite.webp.webp",
-            projectBGImage: "images/service_branding_bg02.webp"
+            projectBGImage: "images/service_branding_bg02.webp",
+            projectLink: "/PDF-Minisite-Website"
         },
         {
             projectClientName: "Power Development Fund Thailand",
             projectName: "Hope Spot",
             projectType: "Informative Website",
             projectImage: "images/Web_Development_Hope_Spot_informative_website.webp",
-            projectBGImage: "images/service_branding_bg01.webp"
+            projectBGImage: "images/service_branding_bg01.webp",
+            projectLink: "/Hopespot-InformativeWeb-Website"
         },
         {
             projectClientName: "Power Development Fund Thailand",
             projectName: "Hope Spot",
             projectType: "Carbon Point Web App",
             projectImage: "images/Web_Development_Hope_Spot_carbon_point.webp",
-            projectBGImage: "images/service_branding_bg01.webp"
+            projectBGImage: "images/service_branding_bg02.webp",
+            projectLink: "/Hopespot-CarbonPoint-WebApp"
         },
     ]
     
@@ -49,6 +53,7 @@ function DigitalPage () {
                 {projectLists.map((project, index) => (
                     <ProjectCard
                         key={index}
+                        projectLink={project.projectLink}
                         projectClientName= {project.projectClientName}
                         projectName= {project.projectName}
                         projectType= {project.projectType}

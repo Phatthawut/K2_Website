@@ -9,7 +9,7 @@ function BrandingPDFPage () {
         {
             projectName: "PDF ERC",
             projectType: "Visual Identity",
-            clientName: "power development fund thailand",
+            clientName: "Power Development Fund Thailand",
             serviceType: "( Branding )",
             projectIntro: "Brand visual identity for the Power Development Fund of Thailand and partners, under the Integrated Communication project, focusing on the thematic ‘Clean Energy for Life’ with creating modern aesthetics, unity and accessibility in mind",
             description: "Visual Design",
