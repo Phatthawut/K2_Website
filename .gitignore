@@ -1,3 +1,6 @@
 # Ignore everything
 *
 
+# But don't ignore the dist folder and its contents
+!dist/
+dist/**
