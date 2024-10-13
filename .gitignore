@@ -1,8 +1,3 @@
 # Ignore everything
 *
 
-# But not the dist folder
-!/dist
-
-# Ignore contents of dist except for the final files
-!/dist/**
