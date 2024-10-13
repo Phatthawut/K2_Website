@@ -10,7 +10,7 @@ function ProjectDetailContent ({projectDetailDescription, descriptionList}) {
     const projectDescriptionParagraphs = projectDetailDescription.projectDescription.split('<!--split-->')
 
     return (
-        <section className="flex justify-center bg-[url('images/detail-content-BG.webp')]">
+        <section className="flex justify-center bg-detail-content bg-cover bg-center bg-sky-600">
             <div className="mx-8 md:mx-20 max-w-[1024px] text-white">
                 <div className="py-12">
                 <div className="text-center">
