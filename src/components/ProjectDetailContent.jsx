@@ -10,14 +10,14 @@ function ProjectDetailContent ({projectDetailDescription, descriptionList}) {
     const projectDescriptionParagraphs = projectDetailDescription.projectDescription.split('<!--split-->')
 
     return (
-        <section className="flex justify-center">
-            <div className="mx-8 md:mx-20 max-w-[1024px]">
+        <section className="flex justify-center bg-[url('images/detail-content-BG.webp')]">
+            <div className="mx-8 md:mx-20 max-w-[1024px] text-white">
                 <div className="py-12">
                 <div className="text-center">
                     <h3 className="font-OpenSans uppercase text-3xl">{projectDetailDescription.clientName}</h3>
                     <h4><span className="font-Merriweather text-3xl italic">{firstPart}</span> <span className="font-OpenSans text-3xl uppercase">{secondPart}</span></h4>
                 </div>
-                {projectDescriptionParagraphs.map((paragraph, index) =>( <p key={index} className="pt-6">{paragraph}</p> ))}
+                {projectDescriptionParagraphs.map((paragraph, index) =>( <p key={index} className="pt-6 font-NotoSans">{paragraph}</p> ))}
                 </div>
                 {descriptionList.map((description, index) => {
                     if (!description.listname.trim() && !description.description.trim()) {
