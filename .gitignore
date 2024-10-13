@@ -5,4 +5,4 @@
 !/dist
 
 # Ignore contents of dist except for the final files
-/dist/*
+!/dist/**
