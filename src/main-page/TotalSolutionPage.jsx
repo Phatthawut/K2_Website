@@ -25,11 +25,11 @@ function TotalSolutionPage () {
         },
         {
             projectClientName: "Phibun Mangsahan Municipality",
-            projectName: "Kaesapue Run", 
+            projectName: "Kaeng Saphue Run", 
             projectType: "Strategic City Marketing",
             projectImage: "images/Total_Solution_Strategic_city_marketing.webp",
             projectBGImage: "images/service_branding_bg01.webp",
-            projectLink: "/Kaesapue-Total-Solution"
+            projectLink: "/Kaeng-Saphue-Total-Solution"
         },
     ]
     
