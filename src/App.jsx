@@ -131,7 +131,7 @@ function App() {
           element: <TotalHopeSpotPage />
         },
         {
-          path: "/Kaesapue-Total-Solution",
+          path: "/Kaeng-Saphue-Total-Solution",
           element: <TotalKaesapuePage />
         },
         {

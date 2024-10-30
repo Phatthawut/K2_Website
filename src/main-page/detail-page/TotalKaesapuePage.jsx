@@ -7,7 +7,7 @@ import ProjectDetailImageCard from "../../components/ProjectDetailImageCard";
 function TotalKaesapuePage () {
     const projectBannerData = 
         {
-            projectName: "Kaesapue Run",
+            projectName: "Kaeng Saphue Run",
             projectType: "Straetegic City Marketing",
             clientName: "Phibun City Municipality Ubol Ratchathani",
             serviceType: "( Total Solution )",
@@ -28,7 +28,7 @@ function TotalKaesapuePage () {
     ]
 
     const projectDescription = {
-        clientName: 'Kaesapue Run',
+        clientName: 'Kaeng Saphue Run',
         projectType: 'Straetegic City Marketing',
         projectDescription: ''
     }
